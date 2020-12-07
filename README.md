@@ -30,7 +30,9 @@ Create a binary
 yarn add electron-builder
 
 yarn electron-builder -l   : For Linux
+
 yarn electron-builder -w   : For Windows
+
 yarn electron-builder -m   : For Macos
 
 
