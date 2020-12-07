@@ -10,25 +10,29 @@ Installation
 -------------
 **Clone this repo**
 ```
-git clone git@github.com:bmarwane/spriteSplitter.git
+git clone https://github.com/Pollito001/spriteSplitter.git
 ```
 **install dependencies**
 ```
-npm install
+yarn install
 ```
 **run tests**
 ```
-npm run test
+yarn run test
 ```
 **run the app**
 ```
-npm start
+yarn run start
 ```
 
 Create a binary
 ---------------
+yarn add electron-builder
 
-Refer to [Electron packager](https://github.com/electron-userland/electron-packager) to create a binary
+yarn electron-builder -l   : For Linux
+yarn electron-builder -w   : For Windows
+yarn electron-builder -m   : For Macos
+
 
 Download Binary
 ---------------
