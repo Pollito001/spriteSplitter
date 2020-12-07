@@ -3,8 +3,8 @@ Sprite Splitter
 
 A multi plateform tool to cut a spriteSheet into individual frames.
 
-----------
 
+<a href="https://ibb.co/mzkgjmb"><img src="https://i.ibb.co/yst79Dd/tijeras.png" alt="tijeras" border="0"></a>
 
 Installation
 -------------
@@ -27,6 +27,7 @@ yarn run start
 
 Create a binary
 ---------------
+
 yarn add electron-builder
 
 yarn electron-builder -l   : For Linux
